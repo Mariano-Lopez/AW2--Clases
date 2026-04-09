@@ -1,0 +1,16 @@
+{
+  "name": "actividad2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node index.mjs",
+    "obtencionDeDatos": "node obtencionDeDatos.mjs",
+    "escrituraYLectura": "node escrituraYLectura.mjs"
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module"
+}
