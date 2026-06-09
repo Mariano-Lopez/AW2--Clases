@@ -49,26 +49,10 @@ app.post('/autenticar', (req, res)=>{
     //     {
     //         mensaje: 'usuario logueado'
     //     }
-    // )
+    // ) 
     //Lo vamos a usar solo si en el front es HTML puro
     res.redirect('/admin')
     //Si no es puro -> utilizar js para gestionar el formulario
 } )
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 app.listen(PUERTO)
